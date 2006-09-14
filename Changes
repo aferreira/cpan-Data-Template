@@ -1,0 +1,11 @@
+Revision history for Perl extension Data-Template.
+
+0.0003  Thu Sep 14 2006
+        - prefix is now optional
+
+0.0002  Tue May 30 2006
+        - fixed two bugs in &process_a
+
+0.0001  Mon May 29 2006
+        - initial version
+
