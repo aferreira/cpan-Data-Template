@@ -4,7 +4,7 @@ package Data::Template;
 use strict;
 use warnings;
 
-our $VERSION = '0.0003';
+our $VERSION = '0.0004';
 
 use base qw(Class::Accessor);
 Data::Template->mk_accessors(qw(engine prefix));
@@ -172,6 +172,7 @@ Each non-ref scalar starting with '=' is processed as a template.
 
 =item *
 
+(outdated)
 Other non-ref scalars are left as they are. Except, those starting 
 with '\=' for which C<s/^\\=/=/> is done (a way to have strings
 starting with '=').

@@ -6,5 +6,6 @@ README
 t/00_use.t
 t/01_basic.t
 t/02_prefix.t
-Template.pm
+t/99_pod.t
+lib/Data/Template.pm
 META.yml                                 Module meta-data (added by MakeMaker)

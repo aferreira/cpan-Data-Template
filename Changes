@@ -1,5 +1,9 @@
 Revision history for Perl extension Data-Template.
 
+0.0004  Mon Sep 25 2006
+        - micro changes (Makefile.PL, new pod test)
+        - moved Template.pm to lib/Data/
+
 0.0003  Thu Sep 14 2006
         - prefix is now optional
 
