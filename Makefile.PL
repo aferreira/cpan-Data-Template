@@ -13,8 +13,13 @@ WriteMakefile(
 
         Test::More => 0,
     },
-    ($EUMM_VERSION >= 6.30_01 ? (
+    ($] >= 5.005 ? (
+        ABSTRACT_FROM  => 'lib/Data/Template.pm', 
+        AUTHOR         => 'A. R. Ferreira <ferreira@cpan.org>',
+     ) : ()),
+    ($EUMM_VERSION >= 6.31 ? (
         LICENSE => 'perl',
     ) : ()),
-    
+
 );
+

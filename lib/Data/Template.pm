@@ -4,7 +4,7 @@ package Data::Template;
 use strict;
 use warnings;
 
-our $VERSION = '0.0004';
+our $VERSION = '0.0005';
 
 use base qw(Class::Accessor);
 Data::Template->mk_accessors(qw(engine prefix));
@@ -207,6 +207,18 @@ Process the templates generating a new data structure.
 It dies on errors (or not - see constructor parameters
 to come soon).
 
+=item B<process_s>
+
+For processing a scalar.
+
+=item B<process_a>
+
+For processing an array.
+
+=item B<process_h>
+
+For processing a hash.
+
 =back
 
 =head1 EXAMPLES
@@ -226,7 +238,7 @@ A. R. Ferreira, E<lt>ferreira@cpan.orgE<gt>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (C) 2006 by A. R. Ferreira
+Copyright (C) 2006-2007 by A. R. Ferreira
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
