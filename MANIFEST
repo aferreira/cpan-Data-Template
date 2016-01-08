@@ -9,4 +9,3 @@ t/02_prefix.t
 t/98_pod-coverage.t
 t/99_pod.t
 lib/Data/Template.pm
-META.yml                                 Module meta-data (added by MakeMaker)
