@@ -1,10 +1,13 @@
 
 package Data::Template;
 
+=encoding utf8
+=cut
+
 use strict;
 use warnings;
 
-our $VERSION = '0.0005';
+our $VERSION = '0.01';
 
 use base qw(Class::Accessor);
 Data::Template->mk_accessors(qw(engine prefix));

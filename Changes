@@ -1,5 +1,8 @@
 Revision history for Perl extension Data-Template.
 
+0.01    Thu Jan  7 2016
+        - distribution refresh
+
 0.0005  Tue Mar 20 2007
         - no need for updating
         - micro changes (POD, Makefile.PL)
