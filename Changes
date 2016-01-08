@@ -1,6 +1,9 @@
 Revision history for Perl extension Data-Template.
 
-0.01    Thu Jan  7 2016
+0.02    Fri Jan  8 2016
+        - Fix POD error (#1)
+
+0.01    Thu Jan  7 2016 (not released)
         - distribution refresh
 
 0.0005  Tue Mar 20 2007

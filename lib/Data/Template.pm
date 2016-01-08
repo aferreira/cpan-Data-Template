@@ -7,7 +7,7 @@ package Data::Template;
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use base qw(Class::Accessor);
 Data::Template->mk_accessors(qw(engine prefix));

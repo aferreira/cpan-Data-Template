@@ -1,4 +1,4 @@
-This is alpha release 0.01 of Data::Template.
+This is alpha release 0.02 of Data::Template.
 
 Data::Template is a kind of template engines for
 data structures rather than text. But it works just
