@@ -1,6 +1,9 @@
 
 package Data::Template;
 
+=encoding utf8
+=cut
+
 use strict;
 use warnings;
 
